@@ -1,38 +1,288 @@
-.App {
-  text-align: center;
+@media screen and (min-width: 980px) {
+    body {
+        margin: 0;
+        height: 733px;
+        background: rgb(45,251,241);
+        background: linear-gradient(0deg, #02c3d8 0%, rgba(137,137,137,1) 66%);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .App {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        border: solid;
+        border-radius: 30px;
+        background-color: whitesmoke;
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+    .inputForms {
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        margin-bottom: 20px;
+        height: 40px;
+        background:#efefef;
+        border:1px solid #6E6E6E;        
+        margin-top:3px;
+        font-size: 1.2em;
+        color:#3a3a3a;
+        outline: none;
+    }
+    .input:focus{
+        outline: none;
+        border:4px solid #29B0D9;
+    }
+    
+    
+    .selectionOptions {
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        
+        
+        
+    }
+    select{
+        border-radius: 10px;
+        margin-bottom: 90px;
+        height: 30px;
+        color:#fff;
+        background: #2E2E2E;
+    }
+    option{
+        color:#fff;
+        background: #A4A4A4;
+
+    }
+   
+    .headerBlock {
+        margin-top: -10px;
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+    }
+    img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+    }
+    .logoBlock{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Patr  ick Hand', cursive;
+        font-size: 20px;
+        margin-left: 40px;  
+    }
+    .logoText{
+        width: 380px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#02c3d8;
+        font-family: 'Montserrat Alternates', sans-serif;
+        letter-spacing: 8px;
+        font-size: 20px;
+        margin-right: 150px;
+    }
+    .logoText>pre{
+        border: solid white;
+        padding: 3px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .hackatotBlock{
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+
+    }
+    .hackatotBlock>p{
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .butBlock{
+        display: flex;
+        justify-content: center;
+
+    }
+    .but {
+        width: 70px;
+        height: 35px;
+        display: inline-block;
+        text-decoration: none;
+        border: solid 1px transparent;
+        border-radius: 4px;
+        color: #ffffff;
+        font-size: 25px;
+        background-color: #6E6E6E;
+    }
+    .but:hover{
+        border-radius: 6px;
+        background-color: #424242;
+        
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media screen and (max-width: 980px) {
+    body {
+        margin: 0;
+        height: 733px;
+        background: rgb(45,251,241);
+        background: linear-gradient(0deg, #02c3d8 0%, rgba(137,137,137,1) 66%);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .App {
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        border: solid;
+        border-radius: 30px;
+        background-color: whitesmoke;
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+    .inputForms {
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        margin-bottom: 20px;
+        height: 40px;
+        background:#efefef;
+        border:1px solid #6E6E6E;        
+        margin-top:3px;
+        font-size: 1.2em;
+        color:#3a3a3a;
+    }
+    input:focus-within{
+    background: #ffe; 
+    border: 1px solid #29B0D9; 
+    outline: none;
+    }
+    
+    
+    .selectionOptions {
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    }
+    select{
+        border-radius: 10px;
+        margin-bottom: 90px;
+        height: 30px;
+        color:#fff;
+        background: #2E2E2E;
+    }
+    option{
+        color:#fff;
+        background: #A4A4A4;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    }
+    .headerBlock {
+        margin-top: -10px;
+        width: 100%;
+        height:140px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+    }
+    img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+    }
+    .logoBlock{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Patr  ick Hand', cursive;
+        font-size: 20px;
+        
+    }
+    .logoText{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#02c3d8;
+        font-family: 'Montserrat Alternates', sans-serif;
+        letter-spacing: 8px;
+        font-size: 20px;
+        
+    }
+    .logoText>pre{
+        
+        border: solid white;
+        padding: 3px;
+        margin: 0;
+     
+    }
+    .hackatotBlock{
+        display: none;
 
-.App-link {
-  color: #61dafb;
-}
+    }
+    
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .butBlock{
+        display: flex;
+        justify-content: center;
+
+    }
+    .but {
+        width: 70px;
+        height: 35px;
+        display: inline-block;
+        text-decoration: none;
+        border: solid 1px transparent;
+        border-radius: 4px;
+        color: #ffffff;
+        font-size: 25px;
+        background-color: #6E6E6E;
+    }
+    .but:hover{
+        border-radius: 6px;
+        background-color: #424242;
+        
+    }
+
 }
